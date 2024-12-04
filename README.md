@@ -14,9 +14,13 @@ conda activate nndyn
 Then install the requirements
 ```
 pip install -r requirements.txt
-pip install -U jax
 ```
 
+Finally install JAX
+```
+conda install -c conda-forge jaxlib
+conda install -c conda-forge jax
+```
 
 
 Open the jupyter notebook with your favorite editor or simply run
