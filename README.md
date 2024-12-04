@@ -25,14 +25,13 @@ python -m pip install -r requirements.txt
 
 4. Finally install JAX:
 ```
-conda install -c conda-forge jaxlib
-conda install -c conda-forge jax
+conda install -c conda-forge jaxlib jax
 ```
 
-5. If you're using conda, you might need to run the following:
+5. If you're using conda, you might need to run the following to point a system-wide jupyter to your conda kernel:
 ```
 conda install ipykernel
-ipython kernel install --user --name=my-nndyn
+ipython kernel install --user --name=nndyn
 ```
 
 6. Open the jupyter notebook with your favorite editor or simply run:
