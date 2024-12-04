@@ -1,0 +1,7 @@
+jax
+jaxlib
+scipy
+matplotlib
+jupyter
+notebook
+ipython
