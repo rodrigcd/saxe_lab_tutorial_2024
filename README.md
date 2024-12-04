@@ -1,29 +1,41 @@
 # saxe_lab_tutorial_2024
 
-First clone the rep
+1. First clone the repo with HTTPS:
 ```
 git clone https://github.com/rodrigcd/saxe_lab_tutorial_2024
+cd saxe_lab_tutorial_2024
 ```
 
-If you want you can create a virtual environment using conda
+or with SSH:
 ```
-conda create -n nndyn python=3.11
+git clone git@github.com:rodrigcd/saxe_lab_tutorial_2024.git
+cd saxe_lab_tutorial_2024
+```
+
+2. If you want you can create a virtual environment using conda:
+```
+conda create -n nndyn python>=3.11
 conda activate nndyn
 ```
 
-Then install the requirements
+3. Then install the requirements:
 ```
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Finally install JAX
+4. Finally install JAX:
 ```
 conda install -c conda-forge jaxlib
 conda install -c conda-forge jax
 ```
 
+5. If you're using conda, you might need to run the following:
+```
+conda install ipykernel
+ipython kernel install --user --name=my-nndyn
+```
 
-Open the jupyter notebook with your favorite editor or simply run
+6. Open the jupyter notebook with your favorite editor or simply run:
 ```
 jupyter notebook
 ```
